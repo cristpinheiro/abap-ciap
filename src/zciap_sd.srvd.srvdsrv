@@ -1,0 +1,6 @@
+@EndUserText.label: 'CIAP - Service Definition'
+define service ZCIAP_SD {
+  expose ZC_CIAP_ATIVO          as Ativo;
+  expose ZC_CIAP_PARCELA        as Parcela;
+  expose ZC_CIAP_CREDITO_MENSAL as CreditoMensal;
+}
